@@ -1,0 +1,36 @@
+#vs{
+    font-size: 40px;
+    color: red;
+}
+b{
+    font-size: 40px;
+    color: rgb(65, 174, 14);
+}
+.pick{
+    background-color: gray;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 25px;
+}
+h5{
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+li img{
+    border-radius:20px;
+}
+h1{
+    background-color: aquamarine;
+    padding: 40px;
+}
+body{
+    background-color: cornsilk;
+}
+#end_result{
+    border-radius: 30px;
+    height: 100px;
+    bottom: 0;
+    font-size: 40px;
+}

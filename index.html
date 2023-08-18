@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1 style="color: brown;">Case Study Between Google Lens and MobileNet</h1><br>
+        <span><b>Google lens</b><img style="width: 150px;" src="https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU">
+        </span>
+        <p><b id="vs">VS</b></p>
+        <br>
+        <b>MobileNet</b>
+        <hr>
+        <ol>
+            <div class="pick col-xs-12">
+                <li class="col-xs-12 col-sm-4">
+                    <b style="color: white;">Test image-</b>
+                    <img src="https://cdn.shopify.com/s/files/1/2399/6481/products/Weblist.jpg?v=1646465160" class="img-responsive">
+                </li>
+                
+                <h5 class="col-sm-4 col-xs-12 ">
+                    output on <b>Google lens</b>-
+                    <span>thermos flask</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    output on <b>MobileNet model</b>-
+                    <span>lipstick</span>
+                </h5>
+                
+                <div class="mini_result col-xs-12">
+                    <h5>Result-
+                    Google lens wins!
+                </h5>
+                </div>
+            </div>
+            <br>
+            <div class="pick col-xs-12">
+                <li class="col-xs-12 col-sm-4">
+                    <b style="color: white;">Test image-</b>
+                    <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/wh-ch520_Primary_image?$whatshotimage$&fmt=png-alpha" class="img-responsive">
+                </li>
+                
+                <h5 class="col-sm-4 col-xs-12 ">
+                    output on <b>Google lens</b>-
+                    <span>Sony wireless headphones</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    output on <b>MobileNet model</b>-
+                    <span>microphone</span>
+                </h5>
+                
+                <div class="mini_result col-xs-12">
+                    <h5>Result-
+                        Google lens wins!
+                    </h5>
+                    
+                </div>
+            </div>
+            <div class="pick col-xs-12">
+                <li class="col-xs-12 col-sm-4">
+                    <b style="color: white;">Test image-</b>
+                    <img src="ac.jpg" class="img-responsive">
+                </li>
+                
+                <h5 class="col-sm-4 col-xs-12 ">
+                    output on <b>Google lens</b>-
+                    <span>Voltas air conditioner</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    output on <b>MobileNet model</b>-
+                    <span>Microwave</span>
+                </h5>
+                
+                <div class="mini_result col-xs-12">
+                    <h5>Result-
+                        Google lens wins!
+                    </h5>
+                    
+                </div>
+            </div>
+            <div class="pick col-xs-12">
+                <li class="col-xs-12 col-sm-4">
+                    <b style="color: white;">Test image-</b>
+                    <img src="bus.jpg" class="img-responsive">
+                </li>
+                
+                <h5 class="col-sm-4 col-xs-12 ">
+                    output on <b>Google lens</b>-
+                    <span>Routemaster london bus</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    output on <b>MobileNet model</b>-
+                    <span>Toolkit</span>
+                </h5>
+                
+                <div class="mini_result col-xs-12">
+                    <h5>Result-
+                        Google lens wins!
+                    </h5>
+                    
+                </div>
+            </div>
+            <div class="pick col-xs-12">
+                <li class="col-xs-12 col-sm-4">
+                    <b style="color: white;">Test image-</b>
+                    <img src="car.jpg" class="img-responsive">
+                </li>
+                
+                <h5 class="col-sm-4 col-xs-12 ">
+                    output on <b>Google lens</b>-
+                    <span>Buggati Chiron Supersport</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    output on <b>MobileNet model</b>-
+                    <span>television set</span>
+                </h5>
+                
+                <div class="mini_result col-xs-12">
+                    <h5>Result-
+                        Google lens wins!
+                    </h5>
+                    
+                </div>
+            </div>
+        </ol>
+        
+    </center>
+    <br><br>
+        <section id="end_result"><div> Final Result-Google lens wins decisively!
+            Out of the 5 things i tested,google lens recognised All 5,while my realtime web image identification indentify none.
+        </div>
+    </section>
+</body>
+</html>
